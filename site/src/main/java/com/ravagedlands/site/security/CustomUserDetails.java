@@ -1,4 +1,4 @@
-package com.terrasdevastadas.site.security;
+package com.ravagedlands.site.security;
 
 import java.io.Serializable;
 import java.util.Collection;
@@ -6,20 +6,20 @@ import java.util.Collection;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import com.terrasdevastadas.site.model.Usuario;
+import com.ravagedlands.site.model.User;
 
 public class CustomUserDetails implements UserDetails, Serializable {
 	
 	 private String email;
 	 
-	 private String senha;
+	 private String password;
 	 
 	 private Collection<? extends GrantedAuthority> authorities;
 	 
 	   
-	 public CustomUserDetails (Usuario usuario){
-	        this.email = usuario.getEmail();
-	        this.senha = usuario.getSenha();
+	 public CustomUserDetails (User user){
+	        this.email = user.getEmail();
+	        this.password = user.getPassword();
 	    }
 
 	 public CustomUserDetails(){}
@@ -33,7 +33,7 @@ public class CustomUserDetails implements UserDetails, Serializable {
 	 @Override
 	 public String getPassword() {
 	       
-	        return senha;
+	        return password;
 	    }
 
 	 @Override

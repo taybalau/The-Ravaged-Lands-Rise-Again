@@ -1,4 +1,4 @@
-package com.terrasdevastadas.site.security;
+package com.ravagedlands.site.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
@@ -20,16 +20,12 @@ public class BasicSecurityConfig extends WebSecurityConfigurerAdapter {
 		auth.userDetailsService(userDetailsService);
 	}
 	
-//	@Bean
-//	public PasswordEncoder passwordEncoder() {
-//		return new BCryptPasswordEncoder();
-//	}
 	
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
 		http.authorizeRequests()
-		.antMatchers("/api/usuario/login").permitAll()
-		.antMatchers("/api/usuario/cadastrar").permitAll()
+		.antMatchers("/api/user/signin").permitAll()
+		.antMatchers("/api/user/signup").permitAll()
 		.anyRequest().authenticated()
 		.and().httpBasic()
 		.and().sessionManagement()
