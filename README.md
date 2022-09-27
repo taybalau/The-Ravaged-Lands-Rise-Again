@@ -33,7 +33,7 @@ along with the integration and deployment of both parts.
 
 But if you are interested in checking the API locally, here are some instructions: 
 
-1 - The first step is to configure your database (MySQL) and properties file according to your preferences. The file with the queries is [here](https://github.com/taybalau/The-Ravaged-Lands-Rise-Again/tree/main/mysql). 
+1 - The first step is to configure your database (MySQL) and [properties file](https://github.com/taybalau/The-Ravaged-Lands-Rise-Again/blob/main/site/src/main/resources/application-dev.properties) according to your preferences. The file with the queries is [here](https://github.com/taybalau/The-Ravaged-Lands-Rise-Again/tree/main/mysql). 
 
 2 - After that, download the [JSON](https://github.com/taybalau/The-Ravaged-Lands-Rise-Again/tree/main/postman) with the endpoint information and use it wherever you prefer. In my case, I use postman to test my API's.
 
