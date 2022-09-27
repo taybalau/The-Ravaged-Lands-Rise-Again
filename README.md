@@ -9,7 +9,7 @@ Welcome to the Ravaged Lands Rise Again project!
 </p>
 
 <p align="center">
-  Artist: [Julia](https://github.com/JuliaDaYo)
+  Artist:<a href="https://github.com/JuliaDaYo">@Julia</a>
    </p>
 
 ## History and proposal: 
