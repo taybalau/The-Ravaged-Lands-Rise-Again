@@ -1,12 +1,16 @@
 # The-Ravaged-Lands-Rise-Again
 
-## Hello guys!
+## Hello guys 🤗
 
 Welcome to the Ravaged Lands Rise Again project!
 
 <p align="center">
   <img src=https://raw.githubusercontent.com/taybalau/The-Ravaged-Lands-Rise-Again/main/field_day.gif  width="480">
 </p>
+
+<p align="center">
+  Artist: @Julia
+   </p>
 
 ## History and proposal: 
 
