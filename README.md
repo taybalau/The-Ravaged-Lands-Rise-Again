@@ -5,7 +5,7 @@
 Welcome to the Ravaged Lands Rise Again project!
 
 <p align="center">
-  <img src=https://drive.google.com/file/d/1XlTpcT3_sslf5JQyc3TwP7Urw5LYztS6/view  width="480">
+  <img src=https://raw.githubusercontent.com/taybalau/The-Ravaged-Lands-Rise-Again/main/field_day.gif  width="480">
 </p>
 
 ## History and proposal: 
