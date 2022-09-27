@@ -12,7 +12,7 @@ Welcome to the Ravaged Lands Rise Again project!
   Artist: <a href="https://github.com/JuliaDaYo">@Julia</a>
    </p>
 
-## History and proposal: 
+## 📖 History and proposal: 
 
 This work was conceived as a project to be delivered in the Software Development course. 
 The proposal of this subject is a gamification in the medieval Era where each group represents a fief, 
@@ -25,7 +25,7 @@ The idea of our gamification was to create a medieval village in which each time
 they would receive some object in their village, such as: an animal, a house, a character. So, a village that was once devastated, 
 with effort and dedication will rise again!
 
-## API:
+## 💻 API:
 
 This repository contains the project's back-end, which was made by me.
 The front I'm creating will be available on GitHub soon,
